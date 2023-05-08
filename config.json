@@ -1,0 +1,13 @@
+{
+    "google_cloud": {
+      "bucket_name": "your-bucket-name",
+      "prefix": "path-to/your-file-name.json",
+      "warehouse_dir": "gs://your-warehouse-dir/your-data-warehouse"
+    },
+    "local": {
+      "json_file_path": "path/to/local/json/file",
+      "warehouse_dir": "file:/path/to/local/data_warehouse"
+    },
+    "database_name": "your_database_name",
+    "table_name": "your_table_name"
+}
